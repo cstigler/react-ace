@@ -269,7 +269,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'onChange',
 	    value: function onChange() {
-	      if (this.props.onChange && !this.silent) {
+	      if (this.editor && this.props.onChange && !this.silent) {
 	        var value = this.editor.getValue();
 	        this.props.onChange(value);
 	      }

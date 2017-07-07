@@ -191,7 +191,7 @@ export default class ReactAce extends PureComponent {
   }
 
   onChange() {
-    if (this.props.onChange && !this.silent) {
+    if (this.editor && this.props.onChange && !this.silent) {
       const value = this.editor.getValue();
       this.props.onChange(value);
     }
