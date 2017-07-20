@@ -1,6 +1,6 @@
 {
   "name": "react-ace",
-  "version": "5.1.1-dc",
+  "version": "5.1.1-dc2",
   "description": "A react component for Ace Editor",
   "main": "lib/index.js",
   "types": "types.d.ts",
@@ -67,7 +67,7 @@
     "brace"
   ],
   "dependencies": {
-    "brace": "github:datacamp/brace#v0.10.1",
+    "brace": "github:datacamp/brace#v0.10.2",
     "lodash.get": "^4.4.2",
     "lodash.isequal": "^4.1.1",
     "opencollective": "^1.0.3",
