@@ -67,7 +67,7 @@
     "brace"
   ],
   "dependencies": {
-    "brace": "github:datacamp/brace#v0.10.2",
+    "brace": "github:cstigler/brace",
     "lodash.get": "^4.4.2",
     "lodash.isequal": "^4.1.1",
     "opencollective": "^1.0.3",
